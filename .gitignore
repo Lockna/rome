@@ -1,0 +1,14 @@
+/compile_commands.json
+/.cache
+*.tar.*
+/obj
+/bin
+/build
+/Makefile
+/autom4te.cache
+/build-aux
+/config.log
+/config.status
+/configure
+/aclocal.m4
+/*~
