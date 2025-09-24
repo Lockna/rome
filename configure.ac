@@ -123,7 +123,7 @@ CFLAGS="$CFLAGS $PKGCONF_CFLAGS"
 CPPFLAGS="$PKGCONF_CPPFLAGS $CPPFLAGS"
 LIBS="$LIBS $PKGCONF_LIBS"
 
-AC_CHECK_HEADERS([stdio.h stdlib.h termios.h unistd.h ctype.h fcntl.h sys/ioctl.h],
+AC_CHECK_HEADERS([stdio.h stdlib.h termios.h unistd.h ctype.h fcntl.h sys/ioctl.h stddef.h],
     [], [AC_MSG_ERROR([required header not found])])
 
 CFLAGS="$OLD_CFLAGS"
